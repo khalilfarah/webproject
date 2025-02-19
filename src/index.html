@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <script src="./index.js" defer></script>
+
+
+    <title>Home Page</title>
+</head>
+
+<body class="bg-slate-200 ">
+
+    <!--Navbar-->
+    <div class=" bg-zinc-600 sticky top-0 z-30">
+        <nav class="container flex items-center mx-auto  p-1.5   justify-between">
+            <div class="w-18 opacity-60 brightness-200 mx-3 ">
+                <img src=" ./images/logo.jpg " alt="logo " />
+            </div>
+            <div class="hidden md:flex text-white font-bold space-x-8 mx-auto  ">
+                <a href="index.html" class="hover:text-amber-600  transition duration-700 ">Home</a>
+                <a href="shop.html" class="hover:text-amber-600  transition duration-700 ">Shop</a>
+                <a href="Services.html" class="hover:text-amber-600  transition duration-700 ">Services</a>
+                <a href="About.html" class="hover:text-amber-600  transition duration-700 ">About me</a>
+                <a href="Contact.html" class="hover:text-amber-600  transition duration-700 ">Contact me</a>
+            </div>
+
+            <div class=" space-x-2 text-center ">
+                <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full  hover:text-black hover:bg-amber-600 px-6 py-1"><a href="Login.html">Log in</a></button>
+                <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full  hover:text-black hover:bg-amber-600 px-4 py-1"><a href="Sign.html">Sign up</a></button>
+
+            </div>
+            <div id="menuBtn" class="md:hidden  mx-3 ">
+                <button onclick=""><img src="./images/hambergar_icon.png " alt="humburger" /></button>
+            </div>
+        </nav>
+        <div id="mobileBtn" class="bg-zinc-600 text-white font-bold  text-center hidden md:hidden ">
+            <a href="index.html" class="block p-2 hover:text-amber-600  transition duration-700 ">Home</a>
+            <a href="shop.html" class="block p-2 hover:text-amber-600  transition duration-700 ">Shop</a>
+            <a href="Services.html" class="block p-2 hover:text-amber-600  transition duration-700 ">Services</a>
+            <a href="About.html" class="block p-2 hover:text-amber-600  transition duration-700 ">About me</a>
+            <a href="Contact.html" class="block p-2 hover:text-amber-600  transition duration-700 ">Contact me</a>
+        </div>
+
+    </div>
+
+    <!--Hero section-->
+    <section class="h-screen flex items-center justify-center   bg-[url(./images/9.jpg)] bg-cover bg-center bg-fixed bg-no-repeat  ">
+        <div class="text-center text-white p-8 ">
+
+            <h1 class="font-bold text-4xl mb-4 ">Hello world,this is my first website </h1>
+            <p class="text-lg lg:text-3xl md:text-2xl mb-6 ">Tailwind CSS* is a powerful CSS framework that allows you to create beautiful and customizable designs easily and quickly.</p>
+
+            <button class="bg-amber-400 hover:bg-amber-600 transform duration-300 text-white font-bold py-2 px-6 rounded-full text-center m-5"><a href="#">Show now</a></button>
+            <button class="bg-amber-400 hover:bg-amber-600 transform duration-300 text-white font-bold py-2 p-8 rounded-full text-centre mx-auto"><a href="#">Explore</a></button>
+
+
+
+
+
+        </div>
+    </section>
+
+    <!--About us-->
+    <section class="container justify-between mx-auto mt-12 mb-10">
+        <div class="flex flex-col md:flex-row items-center gap-8  md:p-0">
+            <div class=" md:w-1/2 md:h-1/2   border border-dashed border-black p-1">
+                <img src="./images/13.jpg" alt="computer">
+
+            </div>
+
+            <div class="md:w-1/2  ml-4 text-slate-700 ">
+                <h1 class="text-4xl font-bold mb-5 text-center">About us</h1>
+                <p class="mb-4 leading-8 text-center">Tailwind CSS**, you can use utility classes to build any type of frontend interface without writing custom CSS from scratc Tailwind CSS* allows you to fully customize the design using a configuration file, ensuring the design aligns with
+                    your brand identity</p>
+                <p class="mb-4 leading-8 text-center">Tailwind CSS* features high performance and optimized load speeds thanks to its utility-first approach and minimized CSS file sizes provides excellent support for responsive design, ensuring a great user experience across all devices and
+                    screen sizes</p>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <!--Shop-->
+    <section class="container mx-auto py-10 mt-12 ">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3  gap-8">
+            <div>
+                <div class="shadow-lg rounded-lg overflow-hidden">
+                    <img src="./images/3.jpg" alt="3" class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1]" />
+                </div>
+                <div class="p-8 text-center">
+                    <h2 class="text-lg mb-2 font-black"> One Photo</h2>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <del class="text-slate-400 text-sm mr-2"> 2000$</del>
+                    <span class="text-xl font-bold text-orange-500">1500$</span>
+
+
+                </div>
+
+            </div>
+            <div>
+                <div class="shadow-lg rounded-lg overflow-hidden">
+                    <img src="./images/4.jpg" alt="4" class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1]" />
+                </div>
+                <div class="p-8 text-center">
+                    <h2 class="text-lg mb-2 font-black"> Tow Photo</h2>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <del class="text-slate-400 text-sm mr-2"> 2500$</del>
+                    <span class="text-xl font-bold text-orange-500">1900$</span>
+
+
+                </div>
+
+            </div>
+            <div>
+                <div class="shadow-lg rounded-lg overflow-hidden">
+                    <img src="./images/5.jpg" alt="5" class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1]" />
+                </div>
+                <div class="p-8 text-center">
+                    <h2 class="text-lg mb-2 font-black"> Three Photo</h2>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <del class="text-slate-400 text-sm mr-2"> 3000$</del>
+                    <span class="text-xl font-bold text-orange-500">2500$</span>
+
+
+                </div>
+
+            </div>
+            <div>
+                <div class="shadow-lg rounded-lg overflow-hidden">
+                    <img src="./images/6.jpg" alt="6" class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1]" />
+                </div>
+                <div class="p-8 text-center">
+                    <h2 class="text-lg mb-2 font-black"> Four Photo</h2>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <del class="text-slate-400 text-sm mr-2"> 1000$</del>
+                    <span class="text-xl font-bold text-orange-500">900$</span>
+
+
+                </div>
+
+            </div>
+            <div>
+                <div class="shadow-lg rounded-lg overflow-hidden">
+                    <img src="./images/12.jpg" alt="12" class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1]" />
+                </div>
+                <div class="p-8 text-center">
+                    <h2 class="text-lg mb-2 font-black"> Five Photo</h2>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <del class="text-slate-400 text-sm mr-2"> 4000$</del>
+                    <span class="text-xl font-bold text-orange-500">3500$</span>
+
+
+                </div>
+
+            </div>
+            <div>
+                <div class="shadow-lg rounded-lg overflow-hidden">
+                    <img src="./images/14.jpg" alt="14" class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1]" />
+                </div>
+                <div class="p-8 text-center">
+                    <h2 class="text-lg mb-2 font-black"> Six Photo</h2>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <del class="text-slate-400 text-sm mr-2"> 3500$</del>
+                    <span class="text-xl font-bold text-orange-500">3000$</span>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!--newsLetter-->
+    <section class=" mx-auto mt-12  bg-zinc-500">
+        <div class="container max-w-full mx-auto flex flex-col lg:flex-row  items-center py-8">
+
+            <div class="md: w-5/6 p-8 ">
+                <h2 class="text-2xl font-bold text-white mb-4  text-center  "> Subscribe your email</h2>
+                <p class="text-white text-center mb-5">Hello, you can send to our website your email ,thank you</p>
+                <form class="relative bg-white">
+                    <input class="w-full py-4 px-2 relative " type="email" placeholder="email@gmail.com ">
+                    <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold   hover:text-black hover:bg-amber-600 py-4 px-6 md:px-8 absolute top-0 right-0">Subscribe</button>
+
+                </form>
+
+            </div>
+            <div class="flex mb-8 gap-2 p-3 md:m-5/6">
+                <img src="./images/7.jpg" alt="7" class="w-60 h-60 object-cover shadow-lg mx-auto rounded-xl" />
+                <img src="./images/8.jpg" alt="8" class="w-60 h-60 object-cover shadow-lg mx-auto rounded-xl" />
+
+
+            </div>
+        </div>
+    </section>
+    <!--Card-->
+    <section class="mb-10 mt-10 mx-8 ">
+        <div>
+            <h2 class="text-3xl font-black text-amber-600 hover:text-amber-400 text-center mb-6">Cards</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8  text-gray-700 ">
+                <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center">
+                    <img src="./images/4.jpg " alt="4" class="rounded-full h-20 w-20" />
+                    <p class="text-center mb-4"> makes it easy to implement dark mode, making your websites more appealing in low-light conditions, Tailwind CSS* offers advanced editor tools that simplify the customization and design process</p>
+                    <p class="font-semibold text-center">khalil farah</p>
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center">
+                    <img src="./images/5.jpg " alt="5" class="rounded-full h-20 w-20" />
+                    <p class="text-center mb-4"> makes it easy to implement dark mode, making your websites more appealing in low-light conditions, Tailwind CSS* offers advanced editor tools that simplify the customization and design process</p>
+                    <p class="font-semibold text-center">Majd farah</p>
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center">
+                    <img src="./images/11.jpg " alt="11" class="rounded-full h-20 w-20" />
+                    <p class="text-center mb-4"> makes it easy to implement dark mode, making your websites more appealing in low-light conditions, Tailwind CSS* offers advanced editor tools that simplify the customization and design process</p>
+                    <p class="font-semibold text-center">brandbad</p>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!--Footeer-->
+    <footer class="bg-zinc-600 ">
+
+        <div class="grid lg:grid-cols-3 md:grid-cols-2  grid-cols-1 justify-center text-center md:text-left  gap-12 py-8 px-13">
+
+            <div class=" space-y-6 ">
+
+
+                <nav class="text-white  flex flex-col  space-y-6  ">
+                    <a href="index.html" class="hover:text-amber-600 font-bold transition duration-700 ">Home</a>
+                    <a href="shop.html" class="hover:text-amber-600 font-bold  transition duration-700 ">Shop</a>
+                    <a href="Services.html" class="hover:text-amber-600 font-bold  transition duration-700 ">Services</a>
+                    <a href="About.html" class="hover:text-amber-600 font-bold  transition duration-700 ">About me</a>
+                    <a href="Contact.html" class="hover:text-amber-600 font-bold  transition duration-700 ">Contact me</a>
+
+
+                </nav>
+
+
+            </div>
+
+            <div class="space-y-4">
+
+
+                <h3 class="text-amber-400 font-bold">About</h3>
+                <p class="text-white">We like to do business at Codelander HQ to our clients'</p>
+
+            </div>
+
+            <div class="space-y-4">
+
+                <h3 class="text-amber-400 font-bold">Contact</h3>
+
+
+                <div class="flex items-center space-x-4 justify-center md:justify-start"><img src="./images/location.png" class="h-5" alt="location">
+                    <p class="text-white">t.me/khalilfarah464</p>
+                </div>
+                <div class="flex  items-center space-x-4  justify-center md:justify-start"><img src="./images/call.png" class="h-5" alt="call">
+                    <p class="text-white">+963 991132008</p>
+                </div>
+                <div class="flex items-center space-x-4  justify-center md:justify-start"><img src="./images/email.png" class="h-5" alt="email">
+                    <p class="text-white">khalilfarah464@gmail.com</p>
+                </div>
+
+
+            </div>
+
+            <div class="space-y-4">
+
+                <h3 class="text-amber-400 font-bold">Social</h3>
+
+
+                <div class="flex space-x-4  justify-center md:justify-start  ">
+                    <img src="./images/facebook.png" class="h-5" alt="facebook">
+                    <img src="./images/twitter.png" class="h-5" alt="twitter">
+                    <img src="./images/instagram.png" class="h-5" alt="instgram">
+                    <img src="./images/linkedin.png" class="h-5" alt="Linkedin">
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="container text-center text-white py-6 ">
+
+            <span class="text-span ">© 2025 Company™. All Rights Reserved.</span>
+
+
+
+
+        </div>
+
+    </footer>
+
+</body>
+
+
+</html>

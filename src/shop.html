@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <script src="./index.js" defer></script>
+    <title>Shop</title>
+</head>
+
+<body class="bg-slate-200">
+    <!--Navbar-->
+    <div class=" bg-zinc-600 sticky top-0 z-30">
+        <nav class="container flex items-center mx-auto  p-1.5   justify-between">
+            <div class="w-18 opacity-60 brightness-200 mx-3 ">
+                <img src=" ./images/logo.jpg " alt="logo " />
+            </div>
+            <div class="hidden md:flex text-white font-bold space-x-8 mx-auto ">
+                <a href="index.html" class="hover:text-amber-600  transition duration-700 ">Home</a>
+                <a href="shop.html" class="hover:text-amber-600  transition duration-700 ">Shop</a>
+                <a href="Services.html" class="hover:text-amber-600  transition duration-700 ">Services</a>
+                <a href="About.html" class="hover:text-amber-600  transition duration-700 ">About me</a>
+                <a href="Contact.html" class="hover:text-amber-600  transition duration-700 ">Contact me</a>
+            </div>
+
+            <div class=" space-x-2 text-center ">
+                <button onclick="" class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full  hover:text-black hover:bg-amber-600 px-6 py-1"><a href="Login.html">Log in</a></button>
+                <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full  hover:text-black hover:bg-amber-600 px-4 py-1"><a href="Sign.html">Sign up</a></button>
+
+            </div>
+            <div id="menuBtn" class="md:hidden  mx-3 ">
+                <button><img src="./images/hambergar_icon.png " alt="humburger " /></button>
+            </div>
+        </nav>
+        <div id="mobileBtn" class="bg-zinc-600 text-white font-bold  text-center hidden md:hidden  ">
+            <a href="index.html" class="block p-2 hover:text-amber-600  transition duration-700 ">Home</a>
+            <a href="shop.html" class="block p-2 hover:text-amber-600  transition duration-700 ">Shop</a>
+            <a href="Services.html" class="block p-2 hover:text-amber-600  transition duration-700 ">Services</a>
+            <a href="About.html" class="block p-2 hover:text-amber-600  transition duration-700 ">About me</a>
+            <a href="Contact.html" class="block p-2 hover:text-amber-600  transition duration-700 ">Contact me</a>
+        </div>
+
+    </div>
+
+
+    <!--about shopping-->
+    <section class=" container  mt-10 mb-10 p-4 justify-between mx-auto ">
+        <div class=" grid md:grid-cols-2 items-center  flex-col  gap-8  md:p-0 ">
+            <div class=" p-1 border border-dotted border-zinc-200 rounded-4xl  ">
+                <img src="./images/12.jpg" alt="1" class=" transition duration-300 hover:scale-[1.1]" />
+
+
+            </div>
+            <div class="  ml-4 text-slate-700 transition duration-300 hover:scale-[1.1]" ">
+                <h2 class=" font-bold text-2xl mb-4 text-center "> About Shopping</h2>
+                <p class="text-gray-600 leading-8 text-center font-medium mb-4 text-wrap ">Tailwind CSS* is a powerful CSS framework that allows you to create beautiful and customizable designs easily and quickly, active community and a large collection of ready-made components that you can use it to increase speed.</p>
+                <p class="text-gray-600 leading-8 text-center font-medium mb-4 text-wrap ">Tailwind CSS* is a powerful CSS framework that allows you to create beautiful and customizable designs easily and quickly, active community and a large collection of ready-made components that you can use it to increase speed</p>
+
+            </div>
+
+        </div>
+    </section>
+    
+
+    <!--Products-->
+    <section class="container mt-7 mb-7 mx-auto py-10 ">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 p-6 ">
+            <div>
+                <div class="shadow-xl rounded-lg overflow-hidden ">
+                    <img src="./images/3.jpg " alt="3 " class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1] " />
+                </div>
+                <div class="p-8 text-center ">
+                    <h2 class=" text-slate-700 text-lg mb-2 font-black "> one prouduct</h2><del class="text-slate-400 text-sm mr-2 "> 3000$</del>
+                    <span class="text-xl font-bold text-orange-500 ">2500$</span>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full hover:text-black hover:bg-amber-700 px-6 py-1 ">ADD to me</button>
+
+
+                </div>
+                
+
+            </div>
+            <div>
+                <div class="shadow-xl rounded-lg overflow-hidden ">
+                    <img src="./images/1.jpg " alt="1 " class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1] " />
+                </div>
+                <div class="p-8 text-center ">
+                    <h2 class=" text-slate-700 text-lg mb-2 font-black "> Tow prouduct</h2><del class="text-slate-400 text-sm mr-2 "> 4000$</del>
+                    <span class="text-xl font-bold text-orange-500 ">3500$</span>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full hover:text-black hover:bg-amber-700 px-6 py-1 ">ADD to me</button>
+
+
+                </div>
+                
+            </div>
+            <div>
+                <div class="shadow-xl rounded-lg overflow-hidden ">
+                    <img src="./images/2.jpg " alt="2 " class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1] " />
+                </div>
+                <div class="p-8 text-center ">
+                    <h2 class=" text-slate-700 text-lg mb-2 font-black "> Three prouduct</h2><del class="text-slate-400 text-sm mr-2 "> 3500$</del>
+                    <span class="text-xl font-bold text-orange-500 ">2500$</span>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full hover:text-black hover:bg-amber-700 px-6 py-1 ">ADD to me</button>
+
+
+                </div>
+                
+            </div>
+            <div>
+                <div class="shadow-xl rounded-lg overflow-hidden ">
+                    <img src="./images/4.jpg " alt="4 " class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1] " />
+                </div>
+                <div class="p-8 text-center ">
+                    <h2 class=" text-slate-700 text-lg mb-2 font-black "> Four prouduct</h2><del class="text-slate-400 text-sm mr-2 "> 3000$</del>
+                    <span class="text-xl font-bold text-orange-500 ">2800$</span>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full hover:text-black hover:bg-amber-700 px-6 py-1 ">ADD to me</button>
+
+
+                </div>
+                
+            </div>
+            <div>
+                <div class="shadow-xl rounded-lg overflow-hidden ">
+                    <img src="./images/5.jpg " alt="5 " class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1] " />
+                </div>
+                <div class="p-8 text-center ">
+                    <h2 class=" text-slate-700 text-lg mb-2 font-black "> Five prouduct</h2><del class="text-slate-400 text-sm mr-2 "> 1500$</del>
+                    <span class="text-xl font-bold text-orange-500 ">1200$</span>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full hover:text-black hover:bg-amber-700 px-6 py-1 ">ADD to me</button>
+
+
+                </div>
+                
+            </div>
+            <div>
+                <div class="shadow-xl rounded-lg overflow-hidden ">
+                    <img src="./images/6.jpg " alt="6 " class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1] " />
+                </div>
+                <div class="p-8 text-center ">
+                    <h2 class=" text-slate-700 text-lg mb-2 font-black "> Six prouduct</h2><del class="text-slate-400 text-sm mr-2 "> 6000$</del>
+                    <span class="text-xl font-bold text-orange-500 ">5500$</span>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full hover:text-black hover:bg-amber-700 px-6 py-1 ">ADD to me</button>
+
+
+                </div>
+                
+            </div>
+            <div>
+                <div class="shadow-xl rounded-lg overflow-hidden ">
+                    <img src="./images/7.jpg " alt="7 " class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1] " />
+                </div>
+                <div class="p-8 text-center ">
+                    <h2 class=" text-slate-700 text-lg mb-2 font-black "> Seven prouduct</h2><del class="text-slate-400 text-sm mr-2 "> 2000$</del>
+                    <span class="text-xl font-bold text-orange-500 ">1500$</span>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full hover:text-black hover:bg-amber-700 px-6 py-1 ">ADD to me</button>
+
+
+                </div>
+                
+            </div>
+            <div>
+                <div class="shadow-xl rounded-lg overflow-hidden ">
+                    <img src="./images/8.jpg " alt="8 " class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1] " />
+                </div>
+                <div class="p-8 text-center ">
+                    <h2 class=" text-slate-700 text-lg mb-2 font-black "> Eight prouduct</h2><del class="text-slate-400 text-sm mr-2 "> 1000$</del>
+                    <span class="text-xl font-bold text-orange-500 ">900$</span>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full hover:text-black hover:bg-amber-700 px-6 py-1 ">ADD to me</button>
+
+
+                </div>
+                
+            </div>
+            <div>
+                <div class="shadow-xl rounded-lg overflow-hidden ">
+                    <img src="./images/9.jpg " alt="9 " class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1] " />
+                </div>
+                <div class="p-8 text-center ">
+                    <h2 class=" text-slate-700 text-lg mb-2 font-black "> Nine prouduct</h2><del class="text-slate-400 text-sm mr-2 "> 1900$</del>
+                    <span class="text-xl font-bold text-orange-500 ">1700$</span>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full hover:text-black hover:bg-amber-700 px-6 py-1 ">ADD to me</button>
+
+
+                </div>
+                
+            </div>
+            <div>
+                <div class="shadow-xl rounded-lg overflow-hidden ">
+                    <img src="./images/10.jpg " alt="10 " class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1] " />
+                </div>
+                <div class="p-8 text-center ">
+                    <h2 class=" text-slate-700 text-lg mb-2 font-black "> Ten prouduct</h2><del class="text-slate-400 text-sm mr-2 "> 2400$</del>
+                    <span class="text-xl font-bold text-orange-500 ">2200$</span>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full hover:text-black hover:bg-amber-700 px-6 py-1 ">ADD to me</button>
+
+
+                </div>
+                
+            </div>
+            <div>
+                <div class="shadow-xl rounded-lg overflow-hidden ">
+                    <img src="./images/11.jpg " alt="11 " class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1] " />
+                </div>
+                <div class="p-8 text-center ">
+                    <h2 class=" text-slate-700 text-lg mb-2 font-black "> Eleven prouduct</h2><del class="text-slate-400 text-sm mr-2 "> 1850$</del>
+                    <span class="text-xl font-bold text-orange-500 ">1650$</span>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full hover:text-black hover:bg-amber-700 px-6 py-1 ">ADD to me</button>
+
+
+                </div>
+                
+            </div>
+            <div>
+                <div class="shadow-xl rounded-lg overflow-hidden ">
+                    <img src="./images/12.jpg " alt="12 " class="w-full h-80 object-cover transition duration-300 hover:scale-[1.1] " />
+                </div>
+                <div class="p-8 text-center ">
+                    <h2 class=" text-slate-700 text-lg mb-2 font-black "> Tewleve prouduct</h2><del class="text-slate-400 text-sm mr-2 "> 2500$</del>
+                    <span class="text-xl font-bold text-orange-500 ">2400$</span>
+                    <p class="mb-4 "> active community and a large collection of ready-made components that you can use to speed up the design process</p>
+                    <button class=" shadow-2xl transition duration-500 bg-amber-400 text-white font-bold rounded-full hover:text-black hover:bg-amber-700 px-6 py-1 ">ADD to me</button>
+
+
+                </div>
+                
+            </div>
+           
+        </div>
+
+
+    </section>
+
+    <!--Footeer-->
+    <footer class="bg-zinc-600 ">
+
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center text-center md:text-left gap-12 py-8 px-13 ">
+
+            <div class=" space-y-6 ">
+
+
+                <nav class="text-white flex flex-col space-y-6 ">
+                    <a href="index.html " class="hover:text-amber-600 font-bold transition duration-700 ">Home</a>
+                    <a href="shop.html " class="hover:text-amber-600 font-bold transition duration-700 ">Shop</a>
+                    <a href="Services.html " class="hover:text-amber-600 font-bold transition duration-700 ">Services</a>
+                    <a href="About.html " class="hover:text-amber-600 font-bold transition duration-700 ">About me</a>
+                    <a href="Contact.html " class="hover:text-amber-600 font-bold transition duration-700 ">Contact me</a>
+
+
+                </nav>
+
+
+            </div>
+
+            <div class="space-y-4 ">
+
+
+                <h3 class="text-amber-400 font-bold ">About</h3>
+                <p class="text-white ">We like to do business at Codelander HQ to our clients'</p>
+
+            </div>
+
+            <div class="space-y-4 ">
+
+                <h3 class="text-amber-400 font-bold ">Contact</h3>
+
+
+                <div class="flex items-center space-x-4 justify-center md:justify-start "><img src="./images/location.png " class="h-5 " alt="location ">
+                    <p class="text-white ">t.me/khalilfarah464</p>
+                </div>
+                <div class="flex items-center space-x-4 justify-center md:justify-start "><img src="./images/call.png " class="h-5 " alt="call ">
+                    <p class="text-white ">+963 991132008</p>
+                </div>
+                <div class="flex items-center space-x-4 justify-center md:justify-start "><img src="./images/email.png " class="h-5 " alt="email ">
+                    <p class="text-white ">khalilfarah464@gmail.com</p>
+                </div>
+
+
+            </div>
+
+            <div class="space-y-4 ">
+
+                <h3 class="text-amber-400 font-bold ">Social</h3>
+
+
+                <div class="flex space-x-4 justify-center md:justify-start ">
+                    <img src="./images/facebook.png " class="h-5 " alt="facebook ">
+                    <img src="./images/twitter.png " class="h-5 " alt="twitter ">
+                    <img src="./images/instagram.png " class="h-5 " alt="instgram ">
+                    <img src="./images/linkedin.png " class="h-5 " alt="Linkedin ">
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="container text-center text-white py-6 ">
+
+            <span class="text-span ">© 2025 Company™. All Rights Reserved.</span>
+
+
+
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
